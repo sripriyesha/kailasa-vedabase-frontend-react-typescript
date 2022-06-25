@@ -13,8 +13,6 @@ function App() {
         <Route path="/" element={<Home />} exact />
         <Route path="/book/:slug" element={<Book />} exact />
         <Route path="/book/:bookslug/:slug" element={<BookChapter />} exact />
-        {/* <Route path="/article/:id" component={Article} exact />
-        <Route path="/category/:id" component={Category} exact /> */}
       </Routes>
     </div>
   );
