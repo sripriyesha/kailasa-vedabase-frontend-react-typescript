@@ -38,7 +38,13 @@ const Home = () => {
                 ));
 
                 const scripturesMarkup = scriptures.data.map(scripture => (
-                    <div key={scripture.attributes.slug}>{scripture.attributes.title}</div>
+                    <Col sm={3} key={scripture.attributes.slug}>
+                        <Link
+                            to={"/scripture/" + scripture.attributes.slug}
+                        >
+                            {scripture.attributes.title}
+                        </Link>
+                    </Col>
                 ));
 
                 return (
