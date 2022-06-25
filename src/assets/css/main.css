@@ -1,0 +1,38 @@
+a {
+  text-decoration: none !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.btn-toggle {
+  line-height: 3.2em;
+  padding: .45em .5em .55em;
+  border: 1px solid #DA9D5B;
+  border-radius: 2px;
+  color: #735403;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
+  margin: 0 0 .3em .2em;
+  padding: .2em .5em;
+}
+
+.btn-toggle.off {
+  color: rgb(166 145 89 / 41%);
+  text-decoration: none;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 544px) {
+  .navbar-brand {
+    font-size: 1.8em;
+  }
+}
+
