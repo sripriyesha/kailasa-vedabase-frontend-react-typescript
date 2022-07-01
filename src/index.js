@@ -7,6 +7,7 @@ import App from "./containers/App";
 import client from "./utils/apolloClient";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './assets/css/main.css'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
